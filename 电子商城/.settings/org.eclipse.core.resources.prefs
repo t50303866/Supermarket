@@ -1,3 +1,9 @@
 eclipse.preferences.version=1
+encoding//src/cn/tzl/shop/refresh/ui/PullToRefreshBase.java=UTF-8
+encoding//src/cn/tzl/shop/refresh/ui/PullToRefreshGridView.java=UTF-8
+encoding//src/cn/tzl/shop/refresh/ui/PullToRefreshListView.java=UTF-8
+encoding//src/cn/tzl/shop/refresh/ui/PullToRefreshScrollView.java=UTF-8
+encoding//src/cn/tzl/shop/refresh/ui/PullToRefreshWebView.java=UTF-8
+encoding//src/cn/tzl/shop/refresh/ui/RotateLoadingLayout.java=UTF-8
 encoding//src/cn/tzl/shop/view/HeartViewPager.java=UTF-8
 encoding//src/cn/tzl/shop/view/TopImagerViewPager.java=UTF-8
