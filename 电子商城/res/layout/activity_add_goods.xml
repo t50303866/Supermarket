@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGoodsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f00" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="个人商品"
+            android:textColor="#000"
+            android:textSize="23sp" />
+    </RelativeLayout>
+    
+    <EditText 
+        android:id="@+id/et_goods_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_title"
+         android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:hint="kk"
+        />
+    <EditText 
+        android:id="@+id/et_goods_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_goods_name"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#a000"
+        android:hint="kk"/>
+	<ImageView 
+	    android:id="@+id/iv_picture"
+	    android:layout_width="match_parent"
+	    android:layout_height="200dp"
+	    android:layout_below="@id/et_goods_describe"
+	    
+	    android:src="@drawable/default_head"
+	    android:clickable="true"/>
+	<Button 
+	    android:id="@+id/bt_publish"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="发    布"
+	    android:textSize="23sp"
+	    android:layout_below="@id/iv_picture"
+	    android:layout_marginTop="10dp"/>
+</RelativeLayout>
